@@ -6,8 +6,6 @@ public class Dog {
     int age;
     float weight;
 
-
-
     //methods
     void bark(){
         System.out.println("woof!");
@@ -23,5 +21,16 @@ public class Dog {
 
     void run() {
         System.out.println("zoom!");
+    }
+       public static void main(String[] args)
+ {
+        Dog pedro = new Dog();
+        pedro.age  = 2;
+        pedro.furLength = 20.545f;
+        pedro.bark();
+
+        Dog lassie = new Dog();
+        lassie.age = 100;
+        lassie.bark();
     }
 }
